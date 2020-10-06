@@ -1,0 +1,27 @@
+.video__subtitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    max-width: 200px;
+}
+@media all and (max-width: 1280px) {
+    .video__subtitle {
+        padding-bottom: calc( (100vw - 1024px)/(1280 - 1024) * (30 - 35) + 35px);
+    } 
+}
+@media all and (max-width: 1024px) {
+    .video__subtitle {
+        padding-bottom: calc( (100vw - 768px)/(1024 - 768) * (35 - 24) + 24px);
+        padding-left: calc( (100vw - 768px)/(1024 - 768) * (30 - 24) + 24px);
+    } 
+}
+@media all and (max-width: 768px) {
+    .video__subtitle {
+        padding-bottom: 24px;
+        padding-left: 24px;
+    }
+}

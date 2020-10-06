@@ -1,0 +1,9 @@
+.places_location {
+    padding-top: 102px; 
+    margin: auto;
+}
+@media all and (max-width: 425px) {
+    .places_location {
+        padding-top: 64px;
+    }
+}

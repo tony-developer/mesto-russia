@@ -1,0 +1,14 @@
+.footer__copyrights {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+@media all and (max-width: 764px) {
+    .footer__copyrights {
+        flex-direction: column;
+        align-items: unset;
+    }
+}

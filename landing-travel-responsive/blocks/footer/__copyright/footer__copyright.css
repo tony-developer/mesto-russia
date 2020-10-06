@@ -1,0 +1,17 @@
+.footer__copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    box-sizing: border-box;
+}
+@media all and (max-width: 764px) {
+    .footer__copyright {
+        padding-top: 3rem;
+    }
+}
+@media all and (max-width: 375px) {
+    .footer__copyright {
+        padding-top: 1rem;
+    }
+}

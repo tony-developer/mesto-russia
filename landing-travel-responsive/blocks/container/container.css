@@ -1,0 +1,20 @@
+.container {
+    font-family: 'Inter', 'Arial', sans-serif;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 283px;
+   
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+    
+@media all and (max-width: 1024px) {
+    .container {
+    margin: 0;
+    padding-right: 0;
+}
+}

@@ -1,0 +1,31 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
+@import url(./__langs/header__langs.css);
+@import url(./_location/header_location.css);
+@import url(./__link/header__link.css);
+
+
+.header {
+    font-family: 'Inter', 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;  
+    padding-top: 30px;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+/* @media all and (max-width: 1280px) {
+    .header {
+        padding: 30px 48px 0;
+    }
+} */
+@media all and (max-width: 375px) {
+    .header {
+        padding-top: 16px;
+    }
+}

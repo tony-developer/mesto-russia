@@ -1,0 +1,25 @@
+.video__duration {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    z-index: 1;
+    max-width: 44px;
+}
+@media all and (max-width: 1024px) {
+    .video__duration  {
+        padding-left: calc( (100vw - 768px)/(1024 - 768) * (30 - 24) + 24px);
+        padding-bottom: calc( (100vw - 768px)/(1024 - 768) * (12 - 8) + 8px);
+        } 
+    } 
+@media all and (max-width: 768px) {
+    .video__duration  {
+        padding-left: 24px;
+        padding-bottom: 8px;
+    }
+        
+}

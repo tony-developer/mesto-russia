@@ -1,0 +1,35 @@
+@import url(./__title/intro__title.css);
+@import url(./__content-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+@import url(./__quantity/intro__quantity.css);
+@import url(../container/container.css);
+@import url(./__quantities/intro__quantities.css);
+@import url(./__quantity-number/intro__quantity-number.css);
+
+.intro {
+    font-family: 'Inter', 'Arial', sans-serif;
+    background: #2A2C2F;
+    color: #FFFFFF;
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+@media all and (max-width: 1024px) {
+    .intro {
+        padding: 0 48px;
+        
+    }
+}
+@media all and (max-width: 768px) {
+    .intro {
+        padding: 0 24px;
+    }
+}

@@ -1,0 +1,28 @@
+@import url(./__image/comment__image.css);
+@import url(./__quote/comment__quote.css);
+@import url(./__author/comment__author.css);
+
+.comment {
+    max-width: 382px;
+    margin-right: 19px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', 'Arial', sans-serif;
+    box-sizing: border-box;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;  
+}
+.comment:last-of-type {
+    margin-right: 0;
+}
+@media all and (max-width: 768px) {
+    .comment {
+        align-items: center;
+        margin-right: 0;
+    
+    }
+}

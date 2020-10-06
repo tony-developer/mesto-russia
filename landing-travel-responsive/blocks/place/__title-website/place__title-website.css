@@ -1,0 +1,18 @@
+.place__title-website {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;   
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+@media all and (max-width: 768px) {
+    .place__title-website {
+        margin-bottom: calc( (100vw - 768px)/(768 - 580) * (40 - 32) + 32px);
+    }
+}
+@media all and (max-width: 580px) {
+    .place__title-website {
+        margin-bottom: 32px;
+        display: block;
+    }
+}

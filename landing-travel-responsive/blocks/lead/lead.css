@@ -1,0 +1,21 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__block/lead__block.css);
+@import url(./__picture/lead__picture.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+    font-family: 'Inter', 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}

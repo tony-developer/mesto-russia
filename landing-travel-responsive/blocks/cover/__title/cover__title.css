@@ -1,0 +1,36 @@
+.cover__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0;
+    padding-top: 274px;
+    color: #FFFDFD;
+    box-sizing: border-box;
+}
+@media all and (max-width: 1024px) {
+    .cover__title {
+        padding-top: 211px;
+    }
+}
+@media all and (max-width: 768px) {
+    .cover__title {
+        padding-top: 165px;
+        font-size: calc( (100vw - 425px)/(768 - 425) * (72 - 32) + 32px);
+        line-height: calc( (100vw - 425px)/(768 - 425) * (78 - 35) + 35px);
+    }
+}
+@media all and (max-width: 425px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 104px;
+        max-width: 343px;
+    }
+}
+@media all and (max-width: 320px) {
+    .cover__title {
+        padding-top: 64px;
+    }
+}

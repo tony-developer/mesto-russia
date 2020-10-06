@@ -1,0 +1,10 @@
+.place__image-paragraphs {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+@media all and (max-width: 580px) {
+    .place__image-paragraphs {
+        flex-direction: column; 
+    }
+}

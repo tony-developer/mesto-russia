@@ -1,0 +1,10 @@
+.place__website {
+    max-width: 484px;  
+    box-sizing: border-box;
+}
+@media all and (max-width: 580px) {
+    .place__website  {
+        display: none;
+    }
+}
+

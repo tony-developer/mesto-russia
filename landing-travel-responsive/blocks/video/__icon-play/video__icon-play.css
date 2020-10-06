@@ -1,0 +1,22 @@
+.video__icon-play {
+    height: 41px;
+    width: 41px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+@media all and (max-width: 1024px) {
+    .video__icon-play {
+        padding-left: calc( (100vw - 768px)/(1024 - 768) * (30 - 25) + 25px);
+    } 
+}
+@media all and (max-width: 768px) {
+    .video__icon-play {
+        padding-top: 25px;
+        padding-left: calc( (100vw - 375px)/(768 - 375) * (25 - 24) + 24px);
+    } 
+}
+@media all and (max-width: 425px) {
+    .video__icon-play {
+        padding-top: 24px;
+    }
+}
